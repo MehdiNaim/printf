@@ -19,7 +19,7 @@ int (*get_print_func(char c))(va_list, int)
 		{'X', print_heX},
 		{'R', print_rot13},
 		{'b', print_b},
-		{'S', print_Str}};          
+		{'S', print_Str}};
 	int i;
 
 	for (i = 0; specifics[i].spec; i++)
